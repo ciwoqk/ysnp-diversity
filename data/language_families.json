@@ -1,0 +1,291 @@
+[
+  {
+    "name": "South Caucasian",
+    "description": "Kartvelian family (Georgian, Zan, Svan); includes Judeo-Georgian. Georgians on YFull often omit the language field; use GE fallback.",
+    "languages": ["kat", "jge", "xmf", "sva", "lzz"],
+    "countries_if_no_language": {"GE": "kat"}
+  },
+  {
+    "name": "Northeast Caucasian",
+    "description": "Nakh-Daghestanian family",
+    "languages": [
+      "che", "inh", "bbl",
+      "ava", "ani", "bph", "gin", "kap", "krs", "tnd",
+      "ddo", "bqh", "ghh", "khv", "kpt",
+      "dar", "xdq", "lbe",
+      "lez", "agx", "kry", "rut", "tab", "tkr", "udi", "bqk"
+    ]
+  },
+  {
+    "name": "Northwest Caucasian",
+    "description": "Abkhazo-Adyghean family",
+    "languages": ["abk", "abq", "ady", "kbd", "uby"]
+  },
+  {
+    "name": "Turkic",
+    "languages": [
+      "krc", "kum", "nog", "kaa", "kaz", "kir", "uzb", "uzs", "tuk", "uig",
+      "tur", "ota", "otk", "aze", "azj", "gag", "crh",
+      "tat", "sty", "bak", "chv", "sah", "tyv", "alt", "kjh", "kmz"
+    ]
+  },
+  {
+    "name": "Indo-European: Balto-Slavic",
+    "description": "Slavic + Baltic (united in Glottolog as one IE branch); includes Old Church Slavic and Old Russian",
+    "languages": [
+      "rus", "orv", "ukr", "bel", "rue",
+      "pol", "csb", "ces", "cse", "slk", "slv", "szl",
+      "hrv", "srp", "hbs", "bos", "cnr", "bul", "mkd", "svm", "chu",
+      "lit", "olt", "lav", "prg", "xgl"
+    ]
+  },
+  {
+    "name": "Indo-European: Germanic",
+    "description": "Sign-language codes (fss, swl) placed here by ethno-population context, not linguistic genealogy",
+    "languages": [
+      "eng", "sco", "ofs", "deu", "gml", "frk", "gsw", "ltz", "nds", "bar", "swg", "cim", "got",
+      "nld", "dum", "vls", "afr", "uln",
+      "yid", "ydd", "yih",
+      "swe", "swl", "nor", "nob", "dan", "jut", "isl",
+      "fss"
+    ]
+  },
+  {
+    "name": "Indo-European: Romance",
+    "description": "Includes Latin (formally Italic, ancestor of Romance) for ancient-DNA convenience",
+    "languages": [
+      "lat",
+      "ita", "itk", "nap", "scn", "vec", "srd", "dlm",
+      "fra", "frp", "xno", "oci", "wln",
+      "spa", "arg", "por", "lad", "ron", "rup", "vsi", "cat", "glg",
+      "pml"
+    ]
+  },
+  {
+    "name": "Indo-European: Celtic",
+    "languages": ["gle", "gla", "cym", "bre"]
+  },
+  {
+    "name": "Indo-European: Hellenic",
+    "description": "Greek, including Pontic, Cappadocian, Yevanic (Judeo-Greek)",
+    "languages": ["ell", "pnt", "cpg", "grc", "tsd", "yej"]
+  },
+  {
+    "name": "Indo-European: Albanian",
+    "languages": ["sqi", "aln", "als", "aat", "aae"]
+  },
+  {
+    "name": "Indo-European: Armenian",
+    "description": "Armenians on YFull often omit the language field; use AM fallback",
+    "languages": ["hye", "hyw"],
+    "countries_if_no_language": {"AM": "hye"}
+  },
+  {
+    "name": "Indo-European: Indo-Iranic",
+    "description": "Iranian + Indo-Aryan (united in Glottolog as Indo-Iranic IE branch); includes Old Persian, Yassic, extinct Khorezmian",
+    "languages": [
+      "fas", "pes", "prs", "haz", "peo", "pal", "jpr", "bqi", "glk", "def",
+      "kur", "kmr", "ckb", "sdh", "lki",
+      "oss", "ysc",
+      "pst", "pus", "pbt", "pbu", "prc", "oru",
+      "bal", "bcc", "tgk", "bhh", "zkh",
+      "wbl", "srh", "isk",
+      "tly", "ttt", "jdt",
+      "zza", "kiu",
+      "hin", "urd", "ben", "pan", "pnb", "guj", "mar", "ori", "asm",
+      "nep", "npi", "rom", "snd", "kok", "mai", "gju", "phr", "rei",
+      "kas", "kls", "hno", "mby", "skr", "sin"
+    ]
+  },
+  {
+    "name": "Dravidian",
+    "languages": ["tam", "oty", "tel", "kan", "mal", "tcy", "brh", "kfc", "iru"]
+  },
+  {
+    "name": "Sino-Tibetan",
+    "languages": [
+      "cmn", "cjy", "cdo", "dng", "yue", "zho", "wuu", "hak", "nan", "hsn", "gan", "lzh", "och",
+      "bod", "dzo", "adx", "xsr", "xzh", "rki", "mya", "bft", "tji",
+      "iii", "lhu", "nxq", "pmi", "pmj"
+    ]
+  },
+  {
+    "name": "Afro-Asiatic",
+    "description": "Semitic, Egyptian (Coptic), Berber, Cushitic, Chadic",
+    "languages": [
+      "ara", "arb", "arz", "ary", "aao", "abv", "acm", "acw", "acx", "adf",
+      "aec", "aeb", "afb", "ajp", "apc", "apd",
+      "arq", "ars", "avl", "ayh", "ayl", "ayn", "ayp", "mey", "ssh", "xaa",
+      "aju", "ajt", "jrb", "jye", "yhd", "sdl",
+      "heb", "hbo", "phn",
+      "aea", "aii", "cld", "myz", "mid", "syr", "tmr", "tru",
+      "gdq", "hoh", "shv", "sqt", "bhm", "hss", "xhd",
+      "amh", "tir", "tig", "som", "orm", "ymm", "hau", "aas",
+      "cop",
+      "ber", "kab", "shy", "tzm", "grr", "sjs"
+    ]
+  },
+  {
+    "name": "Uralic",
+    "languages": ["fin", "krl", "est", "hun", "sme", "sma", "udm", "kom", "chm", "mrj", "mhr", "mdf", "myv"]
+  },
+  {
+    "name": "Mongolic",
+    "languages": ["xal", "mon", "cmg", "bxm", "bua", "bxr", "khk", "mjg", "xwo", "dta"]
+  },
+  {
+    "name": "Tungusic",
+    "description": "Manchu-Tungus family of NE Asia",
+    "languages": ["evn", "eve", "mnc", "gld", "neg", "oac", "ude", "oaa", "orh", "sjo"]
+  },
+  {
+    "name": "Koreanic",
+    "languages": ["kor", "jje"]
+  },
+  {
+    "name": "Japonic",
+    "description": "Japanese and Ryukyuan",
+    "languages": ["jpn", "ryu", "ojp", "okn", "ams", "kzg", "mvi", "rys", "tkn", "yox", "yoi"]
+  },
+  {
+    "name": "Austronesian",
+    "description": "Madagascar to Polynesia: Indonesian, Filipino, Polynesian, Malagasy",
+    "languages": [
+      "ind", "msa", "zlm", "min", "jav", "sun", "ace", "ban", "bug", "mad",
+      "fil", "tgl", "ceb", "hil", "ilo", "war", "pam", "pag", "bik",
+      "mri", "smo", "ton", "haw", "tah", "rar", "fij",
+      "mlg", "plt",
+      "tet", "rga", "wrz",
+      "ami", "tay", "dij"
+    ]
+  },
+  {
+    "name": "Austroasiatic",
+    "description": "Mon-Khmer + Munda; mainland SE Asia and east India",
+    "languages": ["vie", "khm", "mnw", "kha", "hoc", "sat", "kjp"]
+  },
+  {
+    "name": "Tai-Kadai",
+    "description": "Kra-Dai family: Thai, Lao, Zhuang",
+    "languages": ["tha", "lao", "zha", "zhd", "zyb", "zyn", "ccx", "ccy", "shn", "blt", "khb"]
+  },
+  {
+    "name": "Hmong-Mien",
+    "languages": ["hmn", "mww", "hmv", "ium", "mji", "mwx", "muq", "shx"]
+  },
+  {
+    "name": "Niger-Congo",
+    "description": "Largest African family: Bantu, Mande, Kwa, Atlantic-Congo, Kru. NB: Hausa is NOT here, it is Chadic (Afro-Asiatic).",
+    "languages": [
+      "yor", "ibo", "ful", "wol", "swa", "lin", "lug", "nya", "kin",
+      "run", "sna", "zul", "xho", "sot", "tsn", "ven", "tso", "nbl", "nso",
+      "kon", "kik", "lub", "umb", "kam", "fon", "ewe", "twi", "aka",
+      "gaa", "men", "tem", "vai", "bsq", "bam", "dyu", "snk", "kpe", "bem", "lua",
+      "lue", "lun", "loz", "tsc", "llb"
+    ]
+  },
+  {
+    "name": "Nilo-Saharan",
+    "description": "Includes Nilotic, Saharan, Songhay, Nubian, Central Sudanic (Greenberg's macro-family; Glottolog splits these as separate top-level families)",
+    "languages": ["luo", "din", "nus", "kln", "mas", "ach", "alz", "lng", "son", "khq", "onw", "luc"]
+  },
+  {
+    "name": "Khoisan",
+    "description": "Click languages of southern Africa (non-genetic geographic grouping spanning Khoe-Kwadi, Tuu, Kxa)",
+    "languages": ["naq", "nmn", "ktz"]
+  },
+  {
+    "name": "Eskimo-Aleut",
+    "languages": ["iku", "ike", "ipk", "kal", "esu", "ess", "esi", "ale"]
+  },
+  {
+    "name": "Chukotko-Kamchatkan",
+    "languages": ["ckt", "kpy", "ukk", "itl", "alw"]
+  },
+  {
+    "name": "Na-Dené",
+    "description": "Athabaskan, Eyak, Tlingit (includes 'haa' Han Athabaskan)",
+    "languages": [
+      "haa", "tli", "eya",
+      "nav", "apa", "apw", "apk", "apj", "apl", "apm",
+      "ing", "den", "kuu", "tau", "tcb", "tut", "kkz", "scs"
+    ]
+  },
+  {
+    "name": "Algic",
+    "description": "Algonquian + Yurok/Wiyot. NB: 'shy' is Berber, not Cheyenne — Cheyenne is 'chy'.",
+    "languages": [
+      "cre", "oji", "ojb", "ojg", "ojs", "ojw", "otw", "alq", "atj", "ciw",
+      "abe", "blc", "arp", "chy", "mic", "mez", "muh", "pot"
+    ]
+  },
+  {
+    "name": "Iroquoian",
+    "languages": ["chr", "cay", "moh", "one", "ono", "see", "tus", "wya"]
+  },
+  {
+    "name": "Siouan",
+    "languages": ["dak", "lkt", "nak", "iow", "oma", "osa", "ksk", "win", "bia", "hid", "cro"]
+  },
+  {
+    "name": "Uto-Aztecan",
+    "description": "Nahuatl group + western North American languages",
+    "languages": [
+      "nah", "nci", "nch", "ncj", "ncl", "ncx", "nhc", "nhe", "nhg", "nhi",
+      "nhk", "nhm", "nhn", "nhp", "nhq", "nht", "nhv", "nhw", "nhx", "nhy", "nhz",
+      "tar", "yaq", "hop", "ute", "shh", "ood"
+    ]
+  },
+  {
+    "name": "Mayan",
+    "languages": [
+      "yua", "quc", "mam", "kek", "cak", "tzo", "tzh", "ixl",
+      "agu", "knj", "kjb", "lac", "poc", "pop", "poh", "tzj", "usp"
+    ]
+  },
+  {
+    "name": "Quechuan",
+    "languages": [
+      "que", "quz", "qul", "qub", "quf", "quh", "quk", "qup", "qur", "qus",
+      "quw", "qux", "quy",
+      "qva", "qvc", "qve", "qvh", "qvi", "qvj", "qvl", "qvm", "qvn", "qvo",
+      "qvp", "qvs", "qvw", "qvz",
+      "qwa", "qwc", "qwh", "qws",
+      "qxa", "qxc", "qxh", "qxl", "qxn", "qxo", "qxp", "qxr", "qxt", "qxu", "qxw"
+    ]
+  },
+  {
+    "name": "Aymaran",
+    "languages": ["aym", "ayr", "ayc"]
+  },
+  {
+    "name": "Tupian",
+    "description": "Tupi-Guarani and related",
+    "languages": ["gug", "grn", "gun", "tpw", "yrl", "kgp", "tup"]
+  },
+  {
+    "name": "Pama-Nyungan",
+    "description": "Largest Australian Aboriginal family",
+    "languages": ["wbp", "ade", "kld", "pjt", "wmt", "guf", "djr", "amx", "ert", "gnn", "kky", "wrm", "yxg"]
+  },
+  {
+    "name": "Basque",
+    "description": "Language isolate of the western Pyrenees",
+    "languages": ["eus"]
+  },
+  {
+    "name": "Keram",
+    "description": "Small Papuan family in Papua New Guinea (Sepik region). Note: ISO 639-3 currently labels 'mgt' as 'Mongol' but this is NOT a Mongolic language — it is Mwakai (Glottocode mwak1234), unrelated to Mongolian. ISO change request 2025-049 will rename to Mwakai.",
+    "languages": ["mgt"]
+  },
+  {
+    "name": "Burushaski",
+    "description": "Language isolate spoken in northern Pakistan (Hunza, Yasin, Nagar). Despite occasional fringe theories proposing distant ties to Basque, these are not accepted in mainstream linguistics.",
+    "languages": ["bsk"]
+  },
+  {
+    "name": "Kusunda",
+    "description": "Language isolate of central-western Nepal, nearly extinct (~1 fluent speaker as of 2020s).",
+    "languages": ["kgg"]
+  }
+]
