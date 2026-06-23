@@ -8,7 +8,7 @@ Faith's PD (Faith 1992, <https://doi.org/10.1016/0006-3207(92)91201-3>) is the c
 
 ```bash
 uv sync
-uv run ysnp-diversity G-Z6744 -g language_family
+uv run ysnp-diversity G-Z6744 -g language_family                   # any YFull SNP ID — see yfull.com/tree
 uv run ysnp-diversity G-Z6744 -g language_family --impl fast       # vectorised path
 uv run ysnp-diversity G-Z6744 -g language_family --export pd.svg   # or .png / .html
 ```
